@@ -41,8 +41,6 @@ public class UserService {
 		return repo.save(newObj);
 	}
 	
-	
-
 	private void updateData(User newObj, User obj) {
 		newObj.setId(obj.getId());
 		newObj.setName(obj.getName());
